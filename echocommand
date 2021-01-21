@@ -3,4 +3,6 @@
 set -o nounset
 #shopt -s expand_aliases
 #source ~/.bashrc
-set -x ; $@ ; set +x
+#set -x ; $@ ; set +x
+echo $@
+$@

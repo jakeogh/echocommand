@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -o nounset
+#shopt -s expand_aliases
+#source ~/.bashrc
+set -x ; $@ ; set +x
